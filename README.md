@@ -3,7 +3,7 @@ Motor Testbench
 
 A tool aimed to power the tracker's motor with start/stop ramps while braking the motoreducer shaft.
 Braking is achieved with a powder brake, electrically.
-SW is will run on linux-based system (Raspberry Pi 3B or 4) and will be written in Python 3.
+SW is made for linux-based system (Raspberry Pi 3B or 4) and is written in Python 3.
 Realtime information as well as the number of cycles done since start of cycling will be published in influx.
 
 Influx data values can then be shown on Grafana dashboard interface, which is convenient to use.
