@@ -12,18 +12,16 @@ Usage:
 --------------------------------
 
 ```bash
-$ ./testbench.py [start|stop|restart]
+$ ./testbench.py [daemon_command] [--test_command]
 ```
+daemon commands:
 | arg         | effect |
 |-------------|--------|
 | start       | start the daemon           |
 | stop        | stop the daemon            |
 | restart     | stop then start the daemon |
-| -h / --help | display help               |
 
-```bash
-$ ./testbenchcli.py [--start|--stop|--pause|--resume|--info|--brake X]
-```
+test commands:
 | arg            | effect |
 |----------------|--------|
 | --start        | start testing                     |
