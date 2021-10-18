@@ -1,6 +1,8 @@
 Motor Testbench
 ===============
 
+See branch `dev` for latest version
+
 A tool aimed to power the tracker's motor with start/stop ramps while braking the motoreducer shaft.
 Braking is achieved with a powder brake, electrically.
 SW is made for linux-based system (Raspberry Pi 3B or 4) and is written in Python 3.
